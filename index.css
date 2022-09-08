@@ -1,0 +1,48 @@
+body {
+  margin: 0
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  border: 2px solid green;
+  height: 60vh; 
+  padding-bottom: 5vh;
+}
+
+#content {
+  background-color: rgba(8, 80, 3, 0.867);
+  height: 40vh; 
+}
+
+.greenlaw {
+  font-family: 'Heebo', sans-serif; 
+  color: rgba(8, 80, 3, 0.867);
+  font-size: 15vh;
+  line-height: 15vh;
+  padding: 0px;
+}
+
+i {
+  font-size: 1.5rem; 
+  color: white;
+  margin: 2px;  
+}
+
+a:link {
+  color: rgba(249, 130, 83, 0.945);
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+#subheading {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(249, 130, 83, 0.945);
+  font-size: 5vh;
+}
