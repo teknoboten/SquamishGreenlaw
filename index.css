@@ -2,10 +2,7 @@ body {
   margin: 0;
 }
 
-section {
-  width: 100vw;
-}
-
+/* 
 #header {
   display: flex;
   flex-direction: column;
@@ -14,20 +11,32 @@ section {
   height: 60vh; 
   width: 100vw;
   padding-bottom: 5vh;
+} */
+
+.header {
+  height: 50vh;
 }
 
-#content {
+.green {
   background-color: rgba(8, 80, 3, 0.867);
-  height: 40vh;
+  height: 50vh;
+
 }
 
-.greenlaw {
+.heading {
   font-family: 'Heebo', sans-serif; 
   color: rgba(8, 80, 3, 0.867);
-  font-size: 12vw;
-  line-height: 12vw;
-  padding: 0px;
+  /* font-size: 15vw; */
+  /* line-height: 15vw; */
+  /* padding: 0px; */
+}
 
+.subheading {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(249, 130, 83, 0.945);
+  /* font-size: 5vh;
+  line-height: 5; */
+  padding: 0px;
 }
 
 i {
@@ -40,14 +49,5 @@ a:link {
   color: rgba(249, 130, 83, 0.945);
 }
 
-#socials {
-  display: flex;
-  justify-content: center;
-  padding-top: 5vh;
-}
 
-#subheading {
-  font-family: 'Poppins', sans-serif;
-  color: rgba(249, 130, 83, 0.945);
-  font-size: 5vh;
-}
+
