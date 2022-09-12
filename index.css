@@ -38,6 +38,10 @@
   color: black;
 }
 
+.cmuted {
+  color: #f0b77a;
+}
+
 .btn-primary {
   background-color: #114E4A;
   color: white; 
