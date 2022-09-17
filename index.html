@@ -12,30 +12,384 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link href="./index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+
+  <link href="./style.css" rel="stylesheet">
 </head>
 <body>
+ 
+<!-- content   -->
+<div class="container col-xxl-8 px-4 py-0">
 
-<div class="container-fluid">
-  
-  <div class="row header ">
-    <div class="d-flex flex-column align-items-center justify-content-center">
-    <h1 class="display-1 heading">LAUREN </h1>
-    <h1 class="display-1 heading">GREENLAW </h1>
-    <h2 class="subheading">FOR SQUAMISH COUNCIL</h2>
+  <!-- hero   -->
+  <div class="row flex-lg-row align-items-center g-5 py-2 my-5">
+
+    <div class="col-lg-6 mt-5">
+      <h1 class="display-1 heading mb-3">LAUREN GREENLAW</h1>
+      <div class="cantaloupe w-100 wtext px-2 py-1 mb-3"><h1 class="poppins text-center">FOR SQUAMISH COUNCIL 2022</h1></div>
+      <!-- <p class="lead">Leading with Love and Science 💚🧑‍🔬</p> -->
     </div>
+
+    <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+      <img class="d-block mx-lg-auto img-fluid" src="./public/lauren.jpg">
+    </div>
+
+
   </div>
 
-  <div class="row green mb-0">
 
-    <div class="d-flex align-items-center justify-content-center">
-      <span><i class="bi bi-envelope"></i> <a href="mailto:squamishgreenlaw@gmail.com">squamishgreenlaw@gmail.com</a></span>
+
+
+
+<!-- who is lauren -->
+<div class="row flex-lg-row py-5 mt-5">
+  <div class="col">
+
+    <h4 class="ctext">Who is Lauren?<small class="cmuted"> (she/her)</small></h4>
+    <p class="lead mt-4">
+      Hi! I’m Lauren: a geologist and mother, gratefully living with my family in Sḵwx̱wú7mesh (Squamish). I love spending time in nature: biking, hiking, running, walking, paddling, cold dipping, whatever! If I’m outside, I’m pretty happy. I’m running for council because I want to represent my community in making long-term decisions in the best interest of the people, land, and waters of Squamish.</p>
+
+      <p>In terms of experience I have dedicated the last 24 years to studying the earth. I have a B.Sc. Eng. in Geological Engineering, an M.Sc. in Geochemistry, and 15 years of experience as a geochemist. For the last 7 years I’ve been raising my family and working intermittently as a science show host, geochemist or teacher at Quest.</p>
+
+    <p>
+      I believe that councillors should understand the values of their community, work together as a team, and represent their constituents best interest. I also believe that we need to increase collaboration with the Squamish Nation as we learn more of  what municipal commitments will look like under UNDRIP.  My campaign platform is built upon three pillars: livability, affordability and environment.
+    </p>
+
+    <p>With the help of public feedback and a great team (mostly moms) sharing our talents and ideas, I hope to have the opportunity to serve my community in municipal government come October 15th. </p>
+
+    
+  </div>
+</div>
+
+
+<!-- posts -->
+<div class="row my-5">
+
+  <ul class="grid">
+    <li>
+        <!-- <p>1</p> -->
+        <button class="btn-post jade wtext w-100 h-100" type="button" data-quick-view>LIVABILITY</button>
+    </li>
+    <li class="fullwidth is-hidden wtext p-4" id="livability">
+
+      <button type="button" class="btn-close btn-close-white btn-close" aria-label="Close" data-close></button>
+      
+        <p class="lead mt-2">As our population increases we are experiencing growing pains. People are asking “What will it look like to live in Squamish in 5, 10, 20 years?” My priorities as a councillor will include: 
+        </p>
+        
+        <div>
+          <h5>Accessible childcare</h5>
+          <h5>Improved transit systems</h5>
+          <h5>Active transportation infrastructure</h5>
+          <h5>Parking solutions</h5>
+          <h5>Access to and preservation of greenspaces</h5>
+        </div>
+  </li>
+
+
+  <li>
+    <!-- <p>2</p> -->
+    <button class="btn-post jade wtext w-100 h-100" type="button" data-quick-view>AFFORDABILITY</button>
+  </li>
+  <li class="fullwidth is-hidden wtext p-4" id="affordability">
+
+    <button type="button" class="btn-close btn-close-white btn-close" aria-label="Close" data-close></button>
+    
+    <p class="lead mt-2">Lack of affordable housing is hollowing out our community. We are all losing friends, family and essential workers because it is so expensive to live here, the rental market does not meet demand, and the rental market is volatile. My priorities as a councillor will include:
+    </p>
+    
+    <div>
+      <h5>Development of lower-priced units to improve accessibility of the housing market</h5>
+      <h5>Bringing more rental units to the market</h5>
+      <h5>Ear marking housing for essential workers (eg health care, childcare workers, and teachers)</h5>
+      <h5>Pushing for municipal-owned rent controlled units for our most vulnerable</h5>
+    </div>
+  </li>
+
+  <li>
+    <!-- <p>3</p> -->
+    <button class="btn-post jade wtext w-100 h-100" type="button" data-quick-view>ENVIRONMENT</button>
+  </li>
+  <li class="fullwidth is-hidden wtext p-4" id="environment">
+
+    <button type="button" class="btn-close btn-close-white btn-close" aria-label="Close" data-close></button>
+    <p class="lead mt-2">I’ve spent over half of my life studying the environment - this is my passion!  I’m knowledgeable about environmental issues and am genuinely concerned about where we are and about the future we are creating for younger generations and for ourselves. As a councillor the environmental impact of any decision made will be front and centre in my mind. Specifically I will:
+    </p>
+    
+    <div>
+      <h5>Push for improvements in the accessibility and efficacy of our recycling and composting programs</h5>
+      <h5>Say no to any new oil and gas infrastructure beyond safety upgrades</h5>
+      <h5>support measures to reduce our municipal carbon footprint</h5>
+    </div>
+    
+    
+  </li>
+</ul>
+
+</div>
+
+
+
+<!-- events -->
+<div class="row flex-lg-row py-5 my-5">
+
+  <div class="col">
+
+    <h4 class="ctext py-3">Upcoming Events</h4>
+
+
+    <div class="row flex-xxl-row">
+      
+      <div class="col-lg-6">
+        
+        <div class="card mb-2 p-1 border-0">
+          <div class="card-body py-1">
+            <div class="row">
+              <div class="col-2 flex-column align-items-center">
+                
+                  <h3><span class="badge red">28</span></h3>
+                  <h4>Sept</h4>
+                
+              </div>
+
+              <div class="col">
+                <div class="d-flex flex-column">
+                  <h4 class="text-uppercase my-0 jtext">
+                    SORCA All-Candidates Meeting                 
+                  </h4>
+                  <p><a class="jtext" href="https://goo.gl/maps/a4zqrExTJ31SAA6f8">Quest University (Multipurpose Room)</a></p>
+                  <p>6:30pm - 9:00pm</p>
+                  
+                  <div class="card-text">
+                    <p>Join us for an All-Candidates meeting focused on outdoor recreation and access.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-6">
+        
+        <div class="card mb-2 p-1 border-0">
+          <div class="card-body py-1">
+            <div class="row">
+              <div class="col-2 flex-column align-items-center">
+                
+                  <h3><span class="badge red">03</span></h3>
+                  <h4>Oct</h4>
+                
+              </div>
+
+              <div class="col">
+                <div class="d-flex flex-column">
+                  <h4 class="text-uppercase my-0 jtext">
+                    <a class="jtext" href="https://www.facebook.com/events/5621985961247250">2022 Municipal Election All Candidates Meeting</a>                 
+                  </h4>
+                  <p><a class="jtext" href="https://www.facebook.com/pages/Brennan-Park-Recreation-Center/206251029388683">Brennan Park Recreation Center</a></p>
+                  <p>6:00pm - 9:00pm</p>
+                  
+                  <div class="card-text">
+                    <p>Meet Lauren along with the other Mayoral and Councilor Candidates.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<!-- 
+
+      <div class="col-lg-6">
+
+        <div class="card mb-2 p-1 border-0">
+          <div class="card-body py-1">
+            <div class="row">
+              <div class="col-3 flex-column align-items-center">
+                  <h3><span class="badge cantaloupe">27</span></h3>
+                  <h3>Sept</h3>
+              </div>
+              <div class="col">
+                <div class="d-flex flex-column">
+                  <h4 class="text-uppercase mt-0 jtext">
+                    Climb and Whine                 
+                  </h4>
+                  <h6>8am Gondola Basecamp</h6>
+                  <div class="card-text">
+                    Let's hike the Chief and talk about the future because Science! ut ac in libertà Alexandria Ocasio-Cortez Emmy Rock ROCK!! 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="col-lg-6">
+        
+        <div class="card mb-2 p-1 border-0">
+          <div class="card-body py-1">
+            <div class="row">
+              <div class="col-3 flex-column align-items-center">
+                  <h3><span class="badge cantaloupe">29</span></h3>
+                  <h3>Sept</h3>
+              </div>
+              <div class="col">
+                <div class="d-flex flex-column">
+                  <h4 class="text-uppercase mt-0 jtext">
+                    Coffee Chats                
+                  </h4>
+                  <h6>10am at Cloudburst Cafe</h6>
+                  <div class="card-text">
+                    Freegan squid taxidermy health goth, activated charcoal truffaut chambray fashion axe jianbing food truck knausgaard brunch big mood hexagon plaid. Bodega boys scenester ugh, snackwave beard tumeric listicle vinyl. 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      </div><!-- end of event div -->
+
+
+    </div> 
+  </div>
+</div>
+
+
+<!-- social -->
+<div class="row flex-lg-row py-5 mt-5">
+  <div class="col">
+
+    <h4 class="ctext">Get in Touch</h4>
+
+        <div id="socials" class="mt-4">
+
+          <a href="https://www.instagram.com/squamishgreenlaw/"><i class="bi bi-instagram jtext"></i></a>
+          <a href="https://twitter.com/squamishgreenla"> <i class="bi bi-twitter jtext"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100085445288968"> <i class="bi bi-facebook jtext"></i></a>
+          <a class="jtext" href="mailto:squamishgreenlaw@gmail.com"><i class="bi bi-envelope jtext"></i> squamishgreenlaw@gmail.com</a>
+        </div>
 
   </div>
+</div>
+
+
+  <!-- end of container -->
+</div> 
+
+
+<!-- footer -->
+<div class="container-fluid jade">
+<div class="row flex-lg-row mb-0 p-0">
+  <!-- <div class="col-sm-10 col-lg-8 mx-auto"> -->
+<div class="col-sm-10 col-xxl-8 mx-auto">
+
+    <div class="pt-5">
+      <p class="my-2 wtext lead">Our team gratefully acknowledges that we live and work on the traditional, ancestral and unceded territory of the Skwxwú7mesh (Squamish), Tsleil-Waututh & Musqueam First Nations. <span class="small">♡</span></p>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-end mt-5 mb-1">
+      <p class="wtext small">Campaign approved by Janis Takaichi, Financial Agent.</p>
+      <p class="wtext small text-right  ">ⓒ Lauren Greenlaw for Squamish, 2022.</p>
+    </div>
+
+    <div>
+      
+    </div>
+    
   </div>
+</div> 
 
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script>
+const quickViewButtons = document.querySelectorAll('[data-quick-view]');
+const closeButtons = document.querySelectorAll('[data-close]');
+const fullwidthCards = document.querySelectorAll('.fullwidth');
+let toggle; // Quick view <button>.
+let toggleParent; // <li>.
+let fullwidth; // Fullwidth card to be "injected".
+
+const openQuickView = (toggle, toggleParent, fullwidth) => {
+    toggle.setAttribute('aria-expanded', 'true');
+    toggleParent.classList.toggle('is-selected');
+    toggle.classList.toggle('is-selected');
+    fullwidth.classList.toggle('is-hidden');
+    // Make fullwidth card keyboard focusable.
+    fullwidth.setAttribute('tabIndex', '0');
+};
+
+const closeQuickView = (toggle, toggleParent, fullwidth) => {
+    toggle.setAttribute('aria-expanded', 'false');
+    toggleParent.classList.toggle('is-selected');
+    toggle.classList.toggle('is-selected');
+    fullwidth.classList.toggle('is-hidden');
+    fullwidth.removeAttribute('tabIndex');
+};
+
+quickViewButtons.forEach(quickView => {
+    // Add appropriate ARIA attributes for "toggle" behaviour.
+    fullwidth = quickView.parentElement.nextElementSibling;
+    quickView.setAttribute('aria-expanded', 'false');
+    quickView.setAttribute('aria-controls', fullwidth.id);
+
+    quickView.addEventListener('click', (e) => {
+        toggle = e.target;
+        toggleParent = toggle.parentElement;
+        fullwidth = toggleParent.nextElementSibling;
+
+        console.log(toggle);
+        console.log(toggleParent);
+
+        // Open (or close) fullwidth card.
+        if (toggle.getAttribute('aria-expanded') === 'false') {
+            // Do we have another fullwidth card already open? If so, close it.
+            fullwidthCards.forEach(fullwidthOpen => {
+                if (!fullwidthOpen.classList.contains('is-hidden')) {
+                    toggleParentOpen =
+                        fullwidthOpen.previousElementSibling;
+                    toggleOpen = toggleParentOpen.querySelector(
+                        '[data-quick-view]'
+                    );
+
+                    closeQuickView(toggleOpen, toggleParentOpen, fullwidthOpen);
+                }
+            });
+
+            openQuickView(toggle, toggleParent, fullwidth);
+        } else {
+            closeQuickView(toggle, toggleParent, fullwidth);
+        }
+    });
+});
+
+closeButtons.forEach(close => {
+    close.addEventListener('click', (e) => {
+        fullwidth = e.target.parentElement;
+        toggleParent = e.target.parentElement.previousElementSibling;
+        toggle = toggleParent.querySelector('[data-quick-view]');
+
+        closeQuickView(toggle, toggleParent, fullwidth);
+        toggle.focus(); // Return keyboard focus to "toggle" button.
+    });
+});
+</script>
+
 </body>
 </html>
+
+
+
+
+
