@@ -166,12 +166,31 @@ a.wtext:hover {
   font-weight: 300;
 }
 
+.smheading {
+  font-family: 'Oswald', sans-serif;
+  color: #114E4A;
+  /* color: #FFA340; */
+  font-size: calc(1.625rem + 1.8vw);
+  font-weight: 500;
+  line-height: 1.0;
+}
+
+.smsub {
+  font-family: 'Oswald', sans-serif;
+  font-size: calc(1.425rem + 0.5vw);
+  font-weight: 300;
+  line-height: 1.0;
+}
+
+
 .poppins {
   font-family: 'Oswald', sans-serif;
   font-size: calc(1.425rem + 1.0vw);
   font-weight: 300;
   line-height: 1.2;
 }
+
+
 
 i {
   font-size: 1.5rem;
