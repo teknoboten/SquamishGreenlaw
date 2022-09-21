@@ -125,6 +125,42 @@ a.wtext:hover {
   /* border-color: #188079;   */
 }
 
+
+.btn-faq-selected {
+  background-color: white;
+  text-align: left;
+  color: black;
+  border: none;
+  outline: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.btn-faq:hover {
+  background-color: white;
+  border: none;
+  outline: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  /* margin: 1px; */
+  font-size: 1.2rem;
+ 
+}
+
+.btn-faq {
+  background-color: white;
+  text-align: left;
+  color: #114E4A;
+  border: none;
+  outline: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+
 .bd {
   border: 2px solid lime;
 }
@@ -166,12 +202,31 @@ a.wtext:hover {
   font-weight: 300;
 }
 
+.smheading {
+  font-family: 'Oswald', sans-serif;
+  color: #114E4A;
+  /* color: #FFA340; */
+  font-size: calc(1.625rem + 1.8vw);
+  font-weight: 500;
+  line-height: 1.0;
+}
+
+.smsub {
+  font-family: 'Oswald', sans-serif;
+  font-size: calc(1.425rem + 0.5vw);
+  font-weight: 300;
+  line-height: 1.0;
+}
+
+
 .poppins {
   font-family: 'Oswald', sans-serif;
   font-size: calc(1.425rem + 1.0vw);
   font-weight: 300;
   line-height: 1.2;
 }
+
+
 
 i {
   font-size: 1.5rem;
@@ -209,6 +264,8 @@ a.jtext:hover {
   height: 100%;
 }
 
+
+
 /* [3] Make fullwidth card span all grid columns. */
 .fullwidth {
   grid-column: 1 / -1;
@@ -241,3 +298,24 @@ a.jtext:hover {
     min-width: 196px;
   }
 } */
+
+
+
+.expanded {
+  display: block;
+  color: #114E4A;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.hidden {
+  display: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.faq {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
