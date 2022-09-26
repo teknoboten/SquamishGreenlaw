@@ -47,6 +47,10 @@ a.wtext:hover {
   color: #FFA340;
 }
 
+.ctext:hover {
+  color: #e38c2f;
+}
+
 .btext {
   color: black;
 }
